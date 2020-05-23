@@ -15,7 +15,6 @@ myTurtle.pencolor((0.2, 0.8, 0.55))
 myTurtle.pensize(1)
 myTurtle.speed(700)
 
-
 #Recursion tree
 def tree(x):
     if(x<10):
