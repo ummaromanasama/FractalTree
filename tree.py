@@ -15,7 +15,7 @@ myTurtle = turtle.Turtle()
 myTurtle.setheading(90)
 myTurtle.pencolor("#774936")
 myTurtle.pensize(1)
-myTurtle.speed(1000)
+myTurtle.speed(9000)
 
 #Recursion tree
 def tree(x):
@@ -29,33 +29,27 @@ def tree(x):
         tree(3*x/4)
         myTurtle.left(30)
         myTurtle.backward(x)
-        # no_flower()
         flower()
+        myTurtle.pendown()
         myTurtle.pencolor("#774936")
 
 #Flowers for the tree
 def flower():
-    #Flower
-    myTurtle.color("pink", "pink")
-    myTurtle.begin_fill()
-    myTurtle.circle(5)
-    myTurtle.end_fill()
-    #Another way to create the flowers
-    # myTurtle.dot()
+    #I need to account for the rest of the values
+    #Negative/postive and x/y values
+    if (myTurtle.xcor() > 100):  
+        myTurtle.penup()
+    else:
+        myTurtle.color("pink", "pink")
+        myTurtle.begin_fill()
+        myTurtle.circle(5)
+        myTurtle.end_fill()
 
 #Use to get the coordinates of the turtle
 def myTurtle_location():
     location = myTurtle.pos()           
     myTurtle.write(str(location), True) 
-    print(location)     
-
-#Get ride of flowers in unnecessary locations
-#Think I'm going to need to combine the flower() and
-#no_flower because they go hand in hand
-def no_flower():
-    if (myTurtle.ycor() < 100):  
-        myTurtle.penup()
-    
+    print(location)       
     
 #Call function
 tree(100)
