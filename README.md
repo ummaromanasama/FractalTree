@@ -11,4 +11,10 @@ Here are a few variations of fractal tree's I created:
 ![](images/winter.png)
 
 Notes:
+
+{::options parse_block_html="false" /}
+<div class="center">
+
 <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Was able to remove one part of the tree&#39;s flowers🌸<a href="https://twitter.com/hashtag/Pythonturtle?src=hash&amp;ref_src=twsrc%5Etfw">#Pythonturtle</a> <a href="https://twitter.com/hashtag/recursion?src=hash&amp;ref_src=twsrc%5Etfw">#recursion</a> <a href="https://twitter.com/hashtag/programming?src=hash&amp;ref_src=twsrc%5Etfw">#programming</a> <a href="https://t.co/sxwWUiicK3">pic.twitter.com/sxwWUiicK3</a></p>&mdash; Ummaromana Sama (@Romanatized) <a href="https://twitter.com/Romanatized/status/1264754694574034945?ref_src=twsrc%5Etfw">May 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
