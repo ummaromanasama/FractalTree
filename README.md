@@ -11,4 +11,6 @@ Here are a few variations of fractal tree's I created:
 ![](images/winter.png)
 
 Notes:
-
+![](images/note-1.png)
+![](images/note-2.png)
+![](images/note-3.png)
