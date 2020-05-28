@@ -2,6 +2,5 @@
 
 Status: Ongoing
 
-Summary: Trees are natural fractals, patterns that repeat smaller and smaller copies of themselves. In this project I generate a fractal tree utilizing precision to automate the tree branches growing off of each other. On top of the classic fractal tree I implemented flowers on the ends of the trees to give it some personality.
-
+Summary: Trees are natural fractals, patterns that repeat smaller and smaller copies of themselves. To imitate the growth pattern of a tree, I needed to implement a procedure that that calls itself over and over while, avoiding an infinite loop. By using a recursive algorithm I was able to automate the tree branches growing off of each other within seconds. The FractalTrees project consisted of me demonstrating my knowledge of recursion and implementing it to the following application.
 ![](Tree_Video.gif)
