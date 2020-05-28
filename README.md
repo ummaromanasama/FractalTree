@@ -6,7 +6,7 @@ Summary: Trees are natural fractals, patterns that repeat smaller and smaller co
 
 ![](Tree_Video.gif)
 
-Here are a few variations of the fractal tree's: 
+Here are a few variations of the fractal tree's I created: 
 ![](images/spring.png)
 ![](images/summer.png)
 ![](images/fall.png)
